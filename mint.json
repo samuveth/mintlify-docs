@@ -1,29 +1,27 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Sentio",
   "logo": {
     "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "light": "/logo/dark.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#ef00f6",
+    "light": "#ef00f6",
+    "dark": "#ef00f6",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#ef00f6",
+      "to": "#ef00f6"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "App",
+    "url": "https://sentio.show"
   },
   "tabs": [
     {
@@ -45,19 +43,21 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Overview",
+      "pages": ["introduction", "tokenomics", "team"]
     },
     {
-      "group": "Essentials",
+      "group": "Vita Nova (Agent)",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "vita-nova/introduction",
+        "vita-nova/awareness",
+        "vita-nova/expressiveness",
+        "vita-nova/merch"
       ]
+    },
+    {
+      "group": "Sentio (Platform)",
+      "pages": ["platform/introduction", "platform/features"]
     }
   ],
   "footerSocials": {
